@@ -210,12 +210,8 @@ dd {
   margin-left: 0;
 }
 
-.perfil-link{
-  height:40px;
-}
-
-.bi{
-  height:40px;
+.bi-person-circle{
+  size:2rem;
 }
 
 blockquote {
