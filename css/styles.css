@@ -137,6 +137,10 @@ h2, .h2 {
   }
 }
 
+.espacio-navbar{
+  width:30px;
+}
+
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
@@ -10825,3 +10829,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+  
