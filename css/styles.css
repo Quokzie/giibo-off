@@ -210,6 +210,10 @@ dd {
   margin-left: 0;
 }
 
+.perfil-link{
+  height:40px;
+}
+
 blockquote {
   margin: 0 0 1rem;
 }
