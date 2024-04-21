@@ -8137,7 +8137,7 @@ textarea.form-control-lg {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-gray-800), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-bg-opacity)), var(--bs-gray-800) !important;
 }
 
 .bg-success {
