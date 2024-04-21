@@ -7673,6 +7673,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  background-color:var(--bs-gray-800);
 }
 
 .mb-auto {
