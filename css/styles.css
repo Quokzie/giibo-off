@@ -7789,7 +7789,7 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
-  background-color:var(--bs-gray-200);
+  background-color:var(--bs-gray-500);
 }
 
 .pt-0 {
