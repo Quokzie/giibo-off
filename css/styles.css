@@ -10836,7 +10836,6 @@ textarea.form-control-lg {
   font-color:var(--bs-white);
 }
 
-.text-white-link {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-light), var(--bs-text-opacity)) !important;
+.text-white:hover{
+  font-color: #e14c19 ;
 }
