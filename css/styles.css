@@ -10841,9 +10841,9 @@ textarea.form-control-lg {
 }
 
   .text-banner {
-    color: black;
+    color: #fff;
   }
   
   .text-banner:visited {
-    color: black;
+    color: purple;
   }
