@@ -10838,5 +10838,5 @@ textarea.form-control-lg {
 
 .text-white-link {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-gray-100), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
