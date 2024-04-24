@@ -10836,6 +10836,6 @@ textarea.form-control-lg {
   font-color:var(--bs-white);
 }
 
-.link-banner:hover{
+a:hover{
   font-color: #e14c19 ;
 }
