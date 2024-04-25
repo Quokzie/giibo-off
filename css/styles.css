@@ -10836,13 +10836,13 @@ textarea.form-control-lg {
   font-color:var(--bs-white);
 }
 
-  .link-banner a{
+ a{
     color: #fff;
   }
-  .link-banner a:hover{
+ a:hover{
   color: #e14c19 ;
 }
   
-  .link-banner a:visited {
+ a:visited {
     color: purple;
   }
