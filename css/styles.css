@@ -10835,14 +10835,3 @@ textarea.form-control-lg {
 .text-white{
   font-color:var(--bs-white);
 }
-
- #link-banner{
-    color: #fff;
-  }
- #link-banner:hover{
-  color: #e14c19 ;
-}
-  
- #link-banner:visited {
-    color: purple;
-  }
