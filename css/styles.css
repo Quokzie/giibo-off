@@ -10836,14 +10836,13 @@ textarea.form-control-lg {
   font-color:var(--bs-white);
 }
 
-.text-banner:hover{
-  color: #e14c19 ;
-}
-
-  .text-banner {
+  .text-banner a{
     color: #fff;
   }
+  .text-banner a:hover{
+  color: #e14c19 ;
+}
   
-  .text-banner:visited {
+  .text-banner a:visited {
     color: purple;
   }
