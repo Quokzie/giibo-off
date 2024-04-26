@@ -10840,3 +10840,7 @@ textarea.form-control-lg {
 .text-white{
   font-color:var(--bs-white);
 }
+
+#user{
+  color: white;
+}
