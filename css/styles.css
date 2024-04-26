@@ -10835,7 +10835,3 @@ textarea.form-control-lg {
 .text-white{
   font-color:var(--bs-white);
 }
-
-.card-width{
-  min-width= 250px;
-}   
