@@ -10844,3 +10844,14 @@ textarea.form-control-lg {
 #user{
   color: white;
 }
+
+#yesyes{
+  background-color: white;
+  border-radius: 30px;
+}
+
+#imgabt, #bueno {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
