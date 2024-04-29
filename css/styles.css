@@ -8182,7 +8182,7 @@ textarea.form-control-lg {
 
 .bg-gray {
   --bs-bg-opacity: 1;
-  background-color: var(--bs-gray-600) !important;
+  background-color: #7A7A7A !important;
 }
 
 .bg-body {
