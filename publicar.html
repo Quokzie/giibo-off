@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Giibo-publicar</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="WhatsApp Image 2024-04-15 at 4.15.23 PM.jpeg" />
+        <link rel="icon" type="image/x-icon" href="logo-giibo.jpeg" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -109,7 +109,7 @@
                         <option value="6">Estrategia</option>
                     </select>
                     <select class="form-select mb-2" aria-label="Default select example">
-                        <option selected>selecciona una de las opciones</option>
+                        <option selected>------</option>
                         <option value="1">Aventura</option>
                         <option value="2">Juego de disparo</option>
                         <option value="3">sobrevivencia</option>
@@ -118,7 +118,7 @@
                         <option value="6">Estrategia</option>
                     </select>
                     <select class="form-select mb-2" aria-label="Default select example">
-                        <option selected>selecciona una de las opciones</option>
+                        <option selected>------</option>
                         <option value="1">Aventura</option>
                         <option value="2">Juego de disparo</option>
                         <option value="3">sobrevivencia</option>
@@ -126,6 +126,21 @@
                         <option value="5">Acción</option>
                         <option value="6">Estrategia</option>
                     </select>
+                </div>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded me-2" alt="...">
+                      <strong class="me-auto">Giibo</strong>
+                      <small>1 min ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      Tu juego estara en revisión.<br>Pronto sera publicado.
+                    </div>
+                  </div>
                 </div>
             </div>
         </section>
