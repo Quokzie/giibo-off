@@ -16,3 +16,13 @@ if (toastTrigger) {
     toastBootstrap.show()
   })
 }
+
+
+/*js for the modal button in the pay wall of the ficha.html*/
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
