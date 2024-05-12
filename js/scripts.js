@@ -26,3 +26,9 @@ const myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
+
+
+/*js for the notifications bell, bc it ain't working arghhhh*/
+
+const offcanvasElementList = document.querySelectorAll('.offcanvas')
+const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
