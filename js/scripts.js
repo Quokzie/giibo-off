@@ -30,5 +30,12 @@ myModal.addEventListener('shown.bs.modal', () => {
 
 /*js for the notifications bell, bc it ain't working arghhhh*/
 
-const offcanvasElementList = document.querySelectorAll('.offcanvas')
-const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
+const myOffcanvas = document.getElementById('myOffcanvas');
+
+// Option 1: Using Bootstrap's Offcanvas Class (Recommended)
+
+// Assuming you've initialized the offcanvas using Bootstrap:
+const offcanvasInstance = new bootstrap.Offcanvas(myOffcanvas);
+
+// Show the offcanvas programmatically:
+offcanvasInstance.show();
