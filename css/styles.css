@@ -11040,3 +11040,8 @@ textarea.form-control-lg {
   height:500px;
   position:relative;
 }
+
+.espacio-formulario-grande{
+  height:600px;
+  position:relative;
+}
