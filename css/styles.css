@@ -11035,3 +11035,7 @@ textarea.form-control-lg {
   color: #aaa;
   border-radius: 5px;
 }
+
+.espacio-formulario{
+  height:430px;
+}
