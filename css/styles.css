@@ -11045,3 +11045,12 @@ textarea.form-control-lg {
   height:600px;
   position:relative;
 }
+
+#profile-pic {
+  float: left;
+  margin-right: 20px;
+  /* If you want to crop the image to a certain size, use something like this */
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
