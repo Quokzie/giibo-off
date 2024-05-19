@@ -24,7 +24,7 @@ $conn=new mysqli($servername, $username,$password, $dbname);
     echo $nombre;
     echo $contrasenia;
 
-    $sql="INSERT INTO usuario (usu_nombre, usu_contrasena, usu_correo) VALUES ('$nombre', '$contrasenia')";
+    $sql="INSERT INTO usuario (usu_nombre, usu_contrasena) VALUES ('$nombre', '$contrasenia')";
     echo $sql;
 
     if($conn->query($sql)==TRUE){
